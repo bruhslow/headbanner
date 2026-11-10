@@ -1,0 +1,19 @@
+name: HeadBanner
+version: 1.0.0
+main: me.giridharan.headbanner.HeadBanner
+api-version: '26.2'
+description: Wear banners on your head like a raid captain!
+
+commands:
+  headbanner:
+    description: Equip or manage head banners
+    aliases: [bannerhat, hbanner]
+    permission: headbanner.use
+
+permissions:
+  headbanner.use:
+    description: Allows equipping head banners
+    default: true
+  headbanner.admin:
+    description: Allows reloading HeadBanner configuration
+    default: op

@@ -1,0 +1,20 @@
+# HeadBanner Plugin Configuration
+
+# Enable or disable inventory drag-and-drop & shift-click equipping
+allow-inventory-equip: true
+
+# Enable or disable right-clicking a banner in hand to equip
+allow-right-click-equip: true
+
+# Enable dispensers to equip banners to players facing them
+allow-dispenser-equip: true
+
+# Height offset for the banner on your head.
+# -1.25 cancels out the internal model offset and places the banner flush right on top of the helmet/head.
+# Change to -1.20 if you want it slightly higher, or -1.30 if slightly lower.
+banner-y-offset: -1.25
+
+messages:
+  enabled: true
+  equipped: "<green>Banner equipped to your head!</green>"
+  unequipped: "<yellow>Removed your head banner.</yellow>"
